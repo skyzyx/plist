@@ -1,0 +1,33 @@
+{
+	"name": "skyzyx/plist",
+	"description": "Plist parser for PHP.",
+	"keywords": ["plist"],
+	"homepage": "http://github.com/skyzyx/plist",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Jeremy Johnstone",
+			"homepage": "https://github.com/jsjohnst"
+		},
+		{
+			"name": "Jonty Wareing",
+			"homepage": "https://github.com/Jonty"
+		},
+		{
+			"name": "Ryan Parman",
+			"homepage": "http://ryanparman.com"
+		},
+		{
+			"name": "Contributors",
+			"homepage": "https://github.com/amazonwebservices/aws-sdk-for-php/contributors"
+		}
+	],
+	"require": {
+		"php": ">=5.3.2",
+	},
+	"autoload": {
+		"psr-0": {
+			"Skyzyx\\Components\\Plist": "src/"
+		}
+	}
+}
